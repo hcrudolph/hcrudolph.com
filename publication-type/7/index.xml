@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 | Hans Christian Rudolph</title>
+    <link>/publication-type/7/</link>
+      <atom:link href="/publication-type/7/index.xml" rel="self" type="application/rss+xml" />
+    <description>7</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Hans Christian Rudolph</copyright><lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu2bcde33318623ac2bbfcd58becb32b12_2829_512x512_fill_lanczos_center_3.png</url>
+      <title>7</title>
+      <link>/publication-type/7/</link>
+    </image>
+    
+    <item>
+      <title>Formal Verification of the 5G Inter-Operator Signaling Protocol</title>
+      <link>/publication/master/</link>
+      <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/master/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vergleich paralleler Datenverarbeitung in Haskell und C&#43;&#43; anhand eines MapReduce-Szenarios</title>
+      <link>/publication/bachelor/</link>
+      <pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/bachelor/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

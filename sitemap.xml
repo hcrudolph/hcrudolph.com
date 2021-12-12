@@ -35,23 +35,53 @@
     <loc>/category/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tag/3gpp/</loc>
+    <lastmod>2020-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/5g/</loc>
+    <lastmod>2020-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication-type/7/</loc>
+    <lastmod>2020-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/formal-verification/</loc>
+    <lastmod>2020-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/master/</loc>
+    <lastmod>2020-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/prins/</loc>
+    <lastmod>2020-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/</loc>
+    <lastmod>2020-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/security/</loc>
+    <lastmod>2020-08-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <loc>/tag/c-/</loc>
+    <lastmod>2016-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/example/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <loc>/tag/haskell/</loc>
+    <lastmod>2016-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication_types/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <loc>/tag/map-reduce/</loc>
+    <lastmod>2016-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <loc>/tag/parallel-computing/</loc>
+    <lastmod>2016-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/bachelor/</loc>
+    <lastmod>2016-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/admin/</loc>
   </url><url>

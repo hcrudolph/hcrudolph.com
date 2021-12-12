@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security | Hans Christian Rudolph</title>
+    <link>/tag/security/</link>
+      <atom:link href="/tag/security/index.xml" rel="self" type="application/rss+xml" />
+    <description>Security</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Hans Christian Rudolph</copyright><lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu2bcde33318623ac2bbfcd58becb32b12_2829_512x512_fill_lanczos_center_3.png</url>
+      <title>Security</title>
+      <link>/tag/security/</link>
+    </image>
+    
+    <item>
+      <title>Formal Verification of the 5G Inter-Operator Signaling Protocol</title>
+      <link>/publication/master/</link>
+      <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/master/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
