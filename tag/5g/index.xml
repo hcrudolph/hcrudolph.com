@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>5G | Hans Christian Rudolph</title>
-    <link>/tag/5g/</link>
-      <atom:link href="/tag/5g/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://hcrudolph.com/tag/5g/</link>
+      <atom:link href="https://hcrudolph.com/tag/5g/index.xml" rel="self" type="application/rss+xml" />
     <description>5G</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Hans Christian Rudolph</copyright><lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu2bcde33318623ac2bbfcd58becb32b12_2829_512x512_fill_lanczos_center_3.png</url>
+      <url>https://hcrudolph.com/media/icon_hu2bcde33318623ac2bbfcd58becb32b12_2829_512x512_fill_lanczos_center_3.png</url>
       <title>5G</title>
-      <link>/tag/5g/</link>
+      <link>https://hcrudolph.com/tag/5g/</link>
     </image>
     
     <item>
       <title>Formal Verification of the 5G Inter-Operator Signaling Protocol</title>
-      <link>/publication/master/</link>
+      <link>https://hcrudolph.com/publication/master/</link>
       <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/master/</guid>
+      <guid>https://hcrudolph.com/publication/master/</guid>
       <description></description>
     </item>
     

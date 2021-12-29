@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Hans Christian Rudolph</title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://hcrudolph.com/project/</link>
+      <atom:link href="https://hcrudolph.com/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Hans Christian Rudolph</copyright>
     <image>
-      <url>/media/icon_hu2bcde33318623ac2bbfcd58becb32b12_2829_512x512_fill_lanczos_center_3.png</url>
+      <url>https://hcrudolph.com/media/icon_hu2bcde33318623ac2bbfcd58becb32b12_2829_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
-      <link>/project/</link>
+      <link>https://hcrudolph.com/project/</link>
     </image>
     
     <item>
       <title>ciphersuite.info</title>
-      <link>/project/csi/</link>
+      <link>https://hcrudolph.com/project/csi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/csi/</guid>
+      <guid>https://hcrudolph.com/project/csi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cybersecurity-magazine.com</title>
-      <link>/project/csm/</link>
+      <link>https://hcrudolph.com/project/csm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/csm/</guid>
+      <guid>https://hcrudolph.com/project/csm/</guid>
       <description></description>
     </item>
     
