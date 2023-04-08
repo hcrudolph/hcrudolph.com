@@ -30,3 +30,20 @@ params:
         url: "https://hans-around.tokyo"
       - name: "mastodon"
         url: "https://infosec.exchange/@hcrudolph"
+
+deployment:
+  targets:
+    name: "production"
+    URL: "s3://staticpage-hcrudolph-com?region=eu-central-1"
+    matchers:
+      - pattern: "^.+\\.(png|jpg|gif)$"
+        cacheControl: "max-age=31536000, no-transform, public"
+        gzip: false
+      - pattern: "^.+\\.(js|css|svg|ttf)$"
+        cacheControl: "max-age=31536000, no-transform, public"
+        gzip: true
+      - pattern: "^sitemap\\.xml$"
+        contentType: "application/xml"
+        gzip: true
+      - pattern: "^.+\\.(html|xml|json)$"
+        gzip: true
