@@ -1,0 +1,29 @@
+baseURL: 'hcrudolph.com'
+languageCode: 'en-us'
+title: 'Hans Christian Rudolph'
+theme: 'PaperMod'
+params:
+    author: 'Hans Christian Rudolph'
+    defaultTheme: light
+    disableThemeToggle: true
+    paginate: 10
+    profileMode:
+        enabled: true
+        title: "Hi there 👋"
+        subtitle: "I'm Hans, a cyber security professional specializing in wireless communications, network security, and related technologies. I'm based in Tokyo and currently work as a Cyber Advisory Manager at Deloitte. Occasionally, I write about Japan and security."
+        imageUrl: "images/photo.jpg"
+        imageWidth: 125
+        imageHeight: 125
+        buttons:
+          - name: Japan Blog
+            url: "https://hans-around.tokyo"
+          - name: Ciphersuite.info
+            url: "https://ciphersuite.info"
+
+    socialIcons:
+      - name: "linkedin"
+        url: "http://linkedin.com/in/hcrudolph"
+      - name: "github"
+        url: "https://hans-around.tokyo"
+      - name: "mastodon"
+        url: "https://infosec.exchange/@hcrudolph"
