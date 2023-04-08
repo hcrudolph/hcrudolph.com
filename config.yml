@@ -19,6 +19,9 @@ params:
             url: "https://hans-around.tokyo"
           - name: Ciphersuite.info
             url: "https://ciphersuite.info"
+    analytics:
+      plausible:
+        domain: "hcrudolph.com"
 
     socialIcons:
       - name: "linkedin"
