@@ -24,9 +24,9 @@ params:
       domain: "hcrudolph.com"
   socialIcons:
     - name: "linkedin"
-      url: "http://linkedin.com/in/hcrudolph"
+      url: "https://linkedin.com/in/hcrudolph"
     - name: "github"
-      url: "https://hans-around.tokyo"
+      url: "https://github.com/hcrudolph"
     - name: "mastodon"
       url: "https://infosec.exchange/@hcrudolph"
 deployment:
