@@ -17,11 +17,10 @@ params:
     buttons:
       - name: Japan Blog
         url: "https://hans-around.tokyo"
-      - name: Ciphersuite.info
+      - name: Ciphersuites
         url: "https://ciphersuite.info"
-  analytics:
-    plausible:
-      domain: "hcrudolph.com"
+      - name: Vending Machine Collection
+        url: "https://hanbaiki.fyi"
   socialIcons:
     - name: "linkedin"
       url: "https://linkedin.com/in/hcrudolph"
