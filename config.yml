@@ -10,7 +10,7 @@ params:
   profileMode:
     enabled: true
     title: "Hi there 👋"
-    subtitle: "I'm Hans, a cyber security professional specializing in wireless communications, network security, and related technologies. I'm based in Tokyo and currently work as a Cyber Advisory Manager at Deloitte. Occasionally, I write about Japan and security."
+    subtitle: "I'm Hans, a cyber security professional specializing in wireless communications, network security, and related technologies. I'm based in Tokyo and currently work as a Senior Manager at Deloitte Cyber. Occasionally, I write about Japan and security."
     imageUrl: "images/photo.jpg"
     imageWidth: 150
     imageHeight: 150
