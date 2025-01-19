@@ -14,20 +14,27 @@ params:
     imageUrl: "images/photo.jpg"
     imageWidth: 150
     imageHeight: 150
-    buttons:
-      - name: Japan Blog
-        url: "https://hans-around.tokyo"
-      - name: Ciphersuites
-        url: "https://ciphersuite.info"
-      - name: Vending Machine Collection
-        url: "https://hanbaiki.fyi"
   socialIcons:
     - name: "linkedin"
       url: "https://linkedin.com/in/hcrudolph"
     - name: "github"
       url: "https://github.com/hcrudolph"
-    - name: "mastodon"
-      url: "https://infosec.exchange/@hcrudolph"
+    - name: "other"
+      url: "https://hans-around.tokyo"
+menu:
+  main:
+    - identifier: home
+      name: home
+      url: /
+      weight: 10
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 20
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 30
 deployment:
   targets:
     name: "production"
