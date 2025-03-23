@@ -36,4 +36,4 @@ From here, you should be able to follow the WireGuard setup guide linked above w
 And that's it. Overall, getting started with OpenWRT was a lot less complicated than I initially thought. The MAP-E quirk requires you to jump through a few more hoops, but thankfully, others have faced the same challenge before and took the time to document their findings and solution.
 This basic setup has served me well for the past three months and I have not encountered any significant issues. Even a software upgrade to a new major version went entirely smooth. In the meantime, I have made a few more changes, for example, I don't use the built-in WiFi, but a more capable stand-alone access point instead -- something to be covered in a future post.
 
-[^1]: While you can opt to use via PPPoE for a pure IPv4 connection, the performance is not great, varies greatly during peak hours, and the fastest 10Gbps plans don't support it at all.
+[^1]: While you can opt to use PPPoE for a pure IPv4 connection, the performance is not great, varies greatly during peak hours, and the fastest 10Gbps plans don't support it at all.
