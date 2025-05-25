@@ -19,8 +19,6 @@ params:
       url: "https://linkedin.com/in/hcrudolph"
     - name: "github"
       url: "https://github.com/hcrudolph"
-    - name: "other"
-      url: "https://hans-around.tokyo"
 menu:
   main:
     - identifier: home
