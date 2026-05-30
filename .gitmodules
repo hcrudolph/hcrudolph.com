@@ -1,4 +1,0 @@
-[submodule "themes/PaperMod"]
-	path = themes/PaperMod
-	url = https://github.com/hcrudolph/hugo-PaperMod.git
-	ignore = all
