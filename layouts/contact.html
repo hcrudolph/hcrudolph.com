@@ -26,8 +26,19 @@ textarea {
     background-color: #fff;
 }
 
-button {
+.submit-container {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+button {
+    min-width: 50%;
     border: 1px solid #333;
     padding: 12px;
     border-radius: var(--radius);
@@ -43,17 +54,31 @@ button:hover {
     <h1>{{ .Title }}</h1>
 </header>
 
-<form data-static-form-name="contact">
+<form action="https://formspree.io/f/xlgvvqnj" method="POST">
     <label for="name">Name</label>
-    <input type="text" id="name" required />
+    <input type="text" id="name" placeholder="Enter your name" required />
 
     <label for="email">Email</label>
-    <input type="email" id="email" required />
+    <input type="email" id="email" placeholder="Enter your email address" required />
 
     <label for="message">Message</label>
     <textarea name="message" id="message" required /></textarea>
-
-    <button type="submit">Send</button>
+    <!-- Turnstile widget -->
+    <div class="submit-container">
+        <div class="cf-turnstile flex-child" data-sitekey="0x4AAAAAADZtdUIs6RZxiH76" data-callback="enableSubmit"></div>
+        <button type="submit" class="flex-child">Send</button>
+    </div>
 </form>
+
+<script
+      src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+      async
+      defer
+    ></script>
+    <script>
+      function enableSubmit() {
+        document.getElementById("submit-button").disabled = false;
+      }
+</script>
 
 {{- end }}{{/* end main */}}
