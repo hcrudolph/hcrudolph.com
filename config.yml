@@ -14,11 +14,6 @@ params:
     imageUrl: "images/photo.jpg"
     imageWidth: 150
     imageHeight: 150
-  socialIcons:
-    - name: "linkedin"
-      url: "https://linkedin.com/in/hcrudolph"
-    - name: "github"
-      url: "https://github.com/hcrudolph"
 menu:
   main:
     - identifier: home
@@ -33,6 +28,10 @@ menu:
       name: tags
       url: /tags/
       weight: 30
+    - identifier: contact
+      name: contact
+      url: /contact/
+      weight: 40
 deployment:
   targets:
     name: "production"
