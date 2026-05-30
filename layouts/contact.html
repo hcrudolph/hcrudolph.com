@@ -30,21 +30,29 @@ textarea {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
+    justify-content: center;
 }
 
 .flex-child {
+    margin-inline: 10px;
     flex: 1;
 }
 
-button {
+#submit-button {
+    height: 65px;
     min-width: 50%;
     border: 1px solid #333;
-    padding: 12px;
+    padding: 5px;
     border-radius: var(--radius);
 }
 
-button:hover {
+#submit-button:disabled {
+    border: 1px solid #ccc;
+    color: #ccc;
+    cursor: default;
+}
+
+#submit-button:enabled:hover {
     color: #fff;
     background-color: #333;
 }
@@ -56,29 +64,29 @@ button:hover {
 
 <form action="https://formspree.io/f/xlgvvqnj" method="POST">
     <label for="name">Name</label>
-    <input type="text" id="name" placeholder="Enter your name" required />
+    <input type="text" name="name" placeholder="Enter your name" required />
 
     <label for="email">Email</label>
-    <input type="email" id="email" placeholder="Enter your email address" required />
+    <input type="email" name="email" placeholder="Enter your email address" required />
 
     <label for="message">Message</label>
-    <textarea name="message" id="message" required /></textarea>
+    <textarea name="message" name="message" required /></textarea>
     <!-- Turnstile widget -->
     <div class="submit-container">
-        <div class="cf-turnstile flex-child" data-sitekey="0x4AAAAAADZtdUIs6RZxiH76" data-callback="enableSubmit"></div>
-        <button type="submit" class="flex-child">Send</button>
+        <div class="cf-turnstile flex-child"
+            data-sitekey="0x4AAAAAADZtdUIs6RZxiH76"
+            data-size="flexible"
+            data-theme="light"
+            data-callback="enableSubmit"></div>
+        <button type="submit" id="submit-button" class="flex-child" disabled>Send</button>
     </div>
 </form>
 
-<script
-      src="https://challenges.cloudflare.com/turnstile/v0/api.js"
-      async
-      defer
-    ></script>
-    <script>
-      function enableSubmit() {
+<script>
+    function enableSubmit() {
         document.getElementById("submit-button").disabled = false;
-      }
+    }
 </script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
 {{- end }}{{/* end main */}}
